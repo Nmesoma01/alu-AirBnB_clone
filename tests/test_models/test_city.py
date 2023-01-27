@@ -1,4 +1,9 @@
 import unittest
+
+
+def add(x, y):
+    return x + y
+
 class TestCity(unittest.TestCase):
     def test_upper(self):
         self.assertEqual('foo'.upper(), 'FOO')
