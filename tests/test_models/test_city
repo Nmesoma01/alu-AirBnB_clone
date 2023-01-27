@@ -1,5 +1,0 @@
-from models import city
-import unittest
-class TestCity(unittest.TestCase):
-    def capital_city_name(self):
-        self.assertEqual('foo'.upper(), 'FOO')
