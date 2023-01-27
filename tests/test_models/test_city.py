@@ -10,5 +10,7 @@ class TestCity(unittest.TestCase):
     def test_windows_support(self):
         # windows specific testing code
         pass
-     def test_fail(self):
-        self.assertEqual(1, 0, "broken")
+    def test_add_two_positive_numbers(self):
+        result = add(2, 3)
+        self.assertEqual(result, 5)
+
