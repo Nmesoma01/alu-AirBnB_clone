@@ -21,5 +21,6 @@ class TestCity(unittest.TestCase):
     def test_add_two_negative_numbers(self):
         result = add(-2, -3)
         self.assertEqual(result, -5)
-
+     def test_fail(self):
+        self.assertEqual(1, 0, "broken")
 
