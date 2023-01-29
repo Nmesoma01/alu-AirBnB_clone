@@ -1,20 +1,18 @@
 #!/usr/bin/python3
-<<<<<<< HEAD
+import models
 import uuid
 from datetime import datetime
 
 class BaseModel:
     def __init__(self, id, created_at, updated_at):
-    self.id = id
+    self.id = str(uuid4())
     self.created_at = datetime.now()
     self.updated_at = datetime.now()
 
     def save(self):
         self.updated_at = datetime.now()
     def to_dict(self):
-        self.__dict__ =  
-    # code
-
-=======
-""" a class BaseModel that defines all common attributes/methods for other classes """
->>>>>>> 4777734782456f25fb132c1a9a89859143f6d7e6
+        self.__dict__ =  dict(created_at = self.created_at.isoformat())
+        self.__dict__ =  dict(updated_at = self.updated_at.isoformat())
+        self.__dict__ =  dict(created_at = self.created_at.isoformat())
+        self.__dict__ =  dict(__class__ = self.__class__.
