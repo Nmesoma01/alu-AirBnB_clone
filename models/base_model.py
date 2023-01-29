@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 import uuid
 from datetime import datetime
 
@@ -14,3 +15,6 @@ class BaseModel:
         self.__dict__ =  
     # code
 
+=======
+""" a class BaseModel that defines all common attributes/methods for other classes """
+>>>>>>> 4777734782456f25fb132c1a9a89859143f6d7e6
