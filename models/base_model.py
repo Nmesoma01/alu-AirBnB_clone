@@ -9,6 +9,6 @@ class BaseModel:
         self.updated_at = datetime.now()
 
     def __str__(*arg, **kw):
-        return "[{}] ({}) {}".format(self.__class__.__name__, self.id, self.__dict__)
+        return "[{}] ({}) {}".format(self.__class____name__, self.id, self.__dict__)
         
  
