@@ -14,7 +14,7 @@ class BaseModel:
     def save(self, *arg, **kw):
         self.updated_at = datetime.now()
 
-    def __dict__(self, *arg, **kw):
+    def to_dict(self, *arg, **kw):
         dic = {}
         dic = dict(self.__dict__)
         dic['created_at'] = dic['created_at'].isoformat()
