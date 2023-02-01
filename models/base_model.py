@@ -8,5 +8,5 @@ class BaseModel:
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
     def save(self, *arg):
-        def __dict__(self,*arg):
-            def __str__(self,*arg):
+        def __dict__(self, *arg):
+            def __str__(self, *arg):
