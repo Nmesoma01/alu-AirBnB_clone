@@ -8,5 +8,5 @@ class BaseModel:
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
     def __str__(*arg, **kw):
-        print("{} - {}".format(arg, kw))
+        print(str("{} - {}".format(arg, kw)))
  
