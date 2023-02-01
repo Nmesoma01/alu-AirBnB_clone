@@ -18,4 +18,4 @@ class BaseModel:
         self.__dict__ =  dict(created_at = self.created_at.isoformat())
         self.__dict__ =  dict(updated_at = self.updated_at.isoformat())
         self.__dict__ =  dict(created_at = self.created_at.isoformat())
-        self.__dict__ =  dict(__class__ = self.__class__.
+
