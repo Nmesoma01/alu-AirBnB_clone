@@ -8,6 +8,6 @@ class BaseModel:
         self.created_at = datetime.now()
         self.updated_at = datetime.now()
     def __str__(*arg, **kw):
-        return("{} - {}".format(arg, kw))
+        return.format([<class name>] (<self.id>) <self.__dict__>)
         
  
